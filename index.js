@@ -5,7 +5,21 @@ const pc = newPlayableCharacter(100, 110)
 const npc = newNonPlayableCharacter(50, 300)
 
 // have the NPC start walking east immediately
-npc.walkEast()
+// npc.walkEast(500,()=>{
+//     npc.walkNorth()
+// })
+// The above code was used before giving a stop command to the other directions!!!
+
+// The codes below r used to test out nonplay character
+// npc.walkNorth(500,()=>{
+//     npc.walkEast(500)
+// })
+
+// npc.walkSouth(500,()=>{
+//     npc.walkEast(500)
+// })
+
+
 
 // Create the inventory
 const inventory = newInventory()
